@@ -1,8 +1,28 @@
 aid: petual
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/petual.png
 name: Petual
-description: Petual is a company surfaced as a portfolio company of a16z, cowboy-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Petual is a direct-to-consumer pet wellness brand offering functional soft
+  chews for dogs. The company sells six formulas — Thrive (daily longevity),
+  Steady (calm & stress), Nourish (digestive & gut health), Soothe (skin &
+  allergy), Spring (mobility & joint), and Lean (healthy weight & metabolism) —
+  each an apothecary-style canister of 90 chews (9.5 oz) positioned as a daily
+  ritual for a longer, healthier canine life. Backed by a16z and Cowboy
+  Ventures. Petual publishes a consumer storefront only — no public API,
+  developer portal, documentation, SDKs, OpenAPI, well-known discovery, or agent
+  surface was found. This profile tracks the company as a network lead and will
+  be enriched if and when a developer program appears.
 url: https://raw.githubusercontent.com/api-evangelist/petual/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pet Care
+- Health and Wellness
+- Direct to Consumer
+- E-Commerce
+- Consumer
+- Supplements
+- Dogs
 apis: []
+common:
+- type: Website
+  url: https://petual.com
+- type: TermsOfService
+  url: https://petual.com/terms
+- type: PrivacyPolicy
+  url: https://petual.com/privacy
+- type: Support
+  url: https://petual.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
